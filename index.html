@@ -4,10 +4,10 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>girldevelopit-reveal.js - The GDI HTML Presentation Framework</title>
+		<title>GDI Workshop: Building a Personal Website with Github Pages</title>
 
-		<meta name="description" content="Girl Develop It framework for easily creating beautiful presentations using HTML in GDI theme. Forked from Hakim El Hattab's reveal.js">
-		<meta name="author" content="Girl Develop It">
+		<meta name="description" content="GDI Workshop: Building a Personal Website with Github Pages">
+		<meta name="author" content="Bryan Braun">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -19,7 +19,7 @@
 		<!-- light editor<link rel="stylesheet" href="lib/css/light.css">-->
 		<!-- dark editor--><link rel="stylesheet" href="lib/css/dark.css">
 		<link rel="stylesheet" href="lib/css/zenburn.css">
-		
+
 		<link rel="stylesheet" href="plugin/accessibility-helper/css/accessibility-helper.css">
 
 		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
@@ -34,7 +34,7 @@
 		</script>
 
 		<!-- If use the PDF print sheet so students can print slides-->
-		
+
 		<link rel="stylesheet" href="css/print/pdf.css" type="text/css" media="print">
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
 		<!--[if lt IE 9]>
@@ -50,136 +50,213 @@
 			<div class="slides">
         <!-- Opening -->
 				<section>
-					<h1>GDI Reveal.js</h1>
-                    <!-- <img src="img/circle-gdi-logo.png" alt="GDI Logo"/> -->
-					<h3>Girl Develop It's Framework for HTML Presentations</h3>
+					<h2>Building a Personal Website with Github Pages</h2>
 					<p>
-						<small>Found at <a href ="http://github.com/girldevelopit/reveal.js">Girl Develop It reveal.js fork</a>.</small>
+						<small>Taught by <a href="http://bryanbraun.com">Bryan Braun</a> / <a href="http://twitter.com/BryanEBraun">@BryanEBraun</a></small>
 					</p>
 					<p>
-						<small>Original Created by <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small>
+						<small>Slides at <a href="http://bryanbraun.github.io/gdi-personal-website/#/">http://bryanbraun.github.io/gdi-personal-website</a>.</small>
 					</p>
 				</section>
         <!-- Compatibility-->
 				<section>
-					<h2>Heads Up</h2>
-					<p>
-						reveal.js is a framework for easily creating beautiful presentations using HTML. You'll need a browser with
-						support for CSS 3D transforms to see it in its full glory.</p>
-						
-						<p>We highly recommend using Chrome, currently, however, the latest version of Safari, mobile Safari (iPad), Firefox and IE9 will work.
-					</p>
-				</section>
-				
-				<section>
-					<h2>Works in Mobile Safari</h2>
-					<p>
-						Try it out! You can swipe through the slides and pinch your way to the overview.
-					</p>
-				</section>
-				
-				<!-- Examples of basic html based slides -->
-				<section>
-					<h2>Marvelous Unordered List</h2>
+					<h2>Why a Personal Site?</h2>
 					<ul>
-						<li>No order here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-						<li>Or here</li>
+						<li>A place to experiment</li>
+						<li>A place to write</li>
+						<li>Claim your name. Control your message.</li>
+						<li><a href="http://www.bryanbraun.com/2013/08/21/build-it-before-you-need-it">Build it before you need it</a></li>
 					</ul>
+					<aside class="notes">
+		        <ul>
+							<li>I've had a personal site since I started web dev in 2009. (Talk about MY experiences!)</li>
+		        	<li>There's no better way to learn then by making things.</li>
+		        	<li>Writing: is a good skill to develop. Sharing what you learn encourages collaboration.</li>
+		        	<li>About the advice to get yourname .com.</li>
+		        	<li>At some point in the future, you're going to have something to say (or demonstrate).</li>
+							<li>All of this is good for your career. Your website may be the first impression people get of you online.</li>
+		        </ul>
+		    	</aside>
 				</section>
 
 				<section>
-					<h2>Fantastic Ordered List</h2>
-					<ol>
-						<li>One is smaller than...</li>
-						<li>Two is smaller than...</li>
-						<li>Three!</li>
-					</ol>
+					<h2>100s of Options</h2>
+					<p>
+						Wix - Wordpress - Joomla - Squarespace - Django - Drupal - Rails - Express - Sinatra - Hexo - Jekyll - Octopress - Postachio - Hugo - Weebly - Pancake - Pelican - Middleman - Blogger - Google Sites - October - Ghost - Harp - About.me - Yola - Assemble - Craft - Tumblr - Hubpress - Grav - Medium - Hubpages - Svbtle - Posthaven - Pico - Statamic <br/>...
+					</p>
 				</section>
-                
-                <section>
-					<h2>Speaker View</h2>
-					<p>There's a <a href="https://github.com/hakimel/reveal.js#speaker-notes">speaker view</a>. It includes a timer, preview of the upcoming slide as well as your speaker notes.</p>
-					<p>Press the <em>S</em> key to try it out.</p>
-                    <p>P.S. This won't work when running the slides locally unless you run reveal.js runs from a local web server.</p>
 
+				<section>
+					<h1>Github Pages</h1>
+					<h2>What is it?</h2>
+					<p>It's free static site hosting provided by Github.</p>
 					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+						<p>If anybody is unfamiliar with Github, then describe it in a sentence here.</p>
+						<u></u>
 					</aside>
 				</section>
-				
-				<!-- Examples of code slides-->
-				<section>
-					  <h2>But wait! We teach code</h2>
-					  <p>For HTML -- Surround your code with a div class "xml", then pre, then code.</p>
-           <pre>
-            <code>
-              &lt;ul>
-                &lt;li>No order here&lt;/li>
-                &lt;li>Or here&lt;/li>
-                &lt;li>Or here&lt;/li>
-                &lt;li>Or here&lt;/li>
-              &lt;/ul&gt;
-            </code>
-          </pre>
-				</section>
-				
-				<section>
-					  <h2>But wait! We teach code</h2>
-					  <p>We can also make code editable</p>
-					  <pre>
-					    <code contenteditable>
-                &lt;ul>
-                  &lt;li>No order here&lt;/li>
-                  &lt;li>Or here&lt;/li>
-                  &lt;li>Or here&lt;/li>
-                  &lt;li>Or here&lt;/li>
-                &lt;/ul&gt;
-              </code>
 
-            </pre>
-				</section>
-				
-				
 				<section>
-					  <h2>But wait! We teach code</h2>
-					  <p>CSS</p>
-					  <pre>
-              <code contenteditable class ="css">
-                body{
-                  background-color: #ffffff;
-                }
-              </code>
-            </pre>
+					<h2>Why Github Pages?</h2>
+					<ul>
+						<li>Uses developer workflows</li>
+						<li>Full control of your design & content</li>
+						<li>Ease of migration</li>
+						<li>Embraces openness</li>
+						<li>Large Plugin Ecosystem</li>
+						<li>Low Complexity</li>
+						<ul>
+							<li>Secure</li>
+							<li>Scalable</li>
+							<li>Backups built in</li>
+							<li>No comment spam</li>
+						</ul>
+						<li>Free</li>
+					</ul>
+					<aside  class="notes">
+						<ul>
+							<li>Uses Developer workflows: Git, Github, Ruby, Markdown, Frontend Code</li>
+							<li>Hosted services (squarespace, etc) often trade convenience for control.</li>
+							<li>Plugins: RSS, Sitemaps, Syntax Highlighting, etc.</li>
+							<li>Lots of options seem close to free but they tend to increase over time and add up.</li>
+						</ul>
+					</aside>
 				</section>
-				
+
 				<section>
-					  <h2>But wait! We teach code</h2>
-					  <p>Javascript</p>
-					  <pre>
-              <code contenteditable class ="javascript">
-                function helloWorld(){
-                  var name = 'GDI';
-                  alert("Hi, " + name)
-                }
-              </code>
-            </pre>
+					<h2>The Case Against Github Pages</h2>
+					<ul>
+						<li>You can't use it to experiment with Backend / Databases / Caching / Servers / Ops</li>
+						<li>Favors Jekyll, which you may not want (like if you aren't interested in Ruby, for example)</li>
+						<li>Some features must use 3rd party JS plugins</li>
+						<li>Favors control over convenience.</li>
+						<ul>
+							<li>Not a strong theme ecosystem.</li>
+						</ul>
+					</ul>
+					<aside  class="notes">
+						<p>Missing conveniences</p>
+						<ul>
+							<li>No Drag & Drop image uploads.</li>
+							<li>No WYSIWYG Editor. Uses HTML instead (or Markdown, if you go with Jekyll)</li>
+							<li>No Large high-quality theme ecosystem</li>
+							<li>No 3rd Party Only: Commenting, Upvotes, Ratings, [your cool idea]</li>
+						</ul>
+					</aside>
 				</section>
-				
+
 				<section>
-					  <h2>But wait! We teach code</h2>
-					  <p>PHP</p>
-					  <pre>
-              <code contenteditable class ="php">
-                function helloWorld(){
-                  $name = 'GDI';
-                  echo "Hi, " . $name;
-                }
-              </code>
-            </pre>
+					<h3>Sites using Github Pages</h3>
+					<img src="/img/18f-ghpages.png" alt="18f Goverment Digital Services" />
+					<aside class="notes">
+						<p>An example of use in government.</p>
+					</aside>
 				</section>
-				
+
+				<section>
+					<h3>Sites using Github Pages</h3>
+					<img src="/img/bootstrap.png" alt="The site for Twitter Bootstrap" />
+					<aside class="notes">
+						<p>An example of project-based use. Documentation is one of the most popular uses!</p>
+					</aside>
+				</section>
+
+				<section>
+					<h3>Sites using Github Pages</h3>
+					<img src="/img/adobe-open-source.png" alt="Adobe's open source portfolio" />
+					<aside class="notes">
+						<p>An example of corporate use.</p>
+					</aside>
+				</section>
+
+				<section>
+					<h3>Sites using Github Pages</h3>
+					<img src="/img/una-kravets.png" alt="The Personal Blog of Una Kravets" />
+					<aside class="notes">
+						<p>An example of personal / blogging use.</p>
+					</aside>
+				</section>
+
+				<section>
+					<h3>Sites using Github Pages</h3>
+					<img src="/img/ben-balter.png" alt="The Personal Blog of Ben Balter" />
+					<aside class="notes">
+						<p>An example of personal / blogging use.</p>
+					</aside>
+				</section>
+
+				<section>
+					<h2>Getting Started</h2>
+					<p><a href="https://pages.github.com">https://pages.github.com</a></p>
+					<aside class="notes">
+						<p>Jump over to Github Pages and walk through their steps to follow the setup.</p>
+						<ul>
+							<li>Make sure the repo is empty (no README).</li>
+							<li>Put the project on my desktop.</li>
+							<li>Add the index.html file from my desktop.</li>
+							<li>Get the URL from the settings area (and add it to the description area).</li>
+						</ul>
+					</aside>
+				</section>
+
+				<section>
+				  <h3>Options for making it look nice:</h3>
+					<p>1. Style it yourself.</p>
+					<img src="/img/style.png" alt="An artist at an easel">
+				</section>
+
+				<section>
+					  <h3>Options for making it look nice:</h3>
+					<p>2. Start with a Github Template</p>
+					<img src="/img/github-pages-templates.png" alt="Thumbnails of built-in templates options for Github Pages.">
+					<aside class="notes">
+						<p>Demo how to find and enable Github's templates: <a href="https://github.com/bryanbraun/bryanbraun.github.io">https://github.com/bryanbraun/bryanbraun.github.io</a></p>
+						<p>Note: not many options.</p>
+					</aside>
+				</section>
+
+				<section>
+					<h3>Options for making it look nice:</h3>
+					<p>3. Browse static templates online</p>
+						<ul>
+							<li>Collections, like <a href="http://templated.co/">Templated</a> & <a href="http://html5up.net/">HTML5Up</a></li>
+							<li><a href="https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&es_th=1&ie=UTF-8#q=bootstrap+themes">Bootstrap Themes</a></li>
+							<li>Paid Theme Marketplaces, like <a href="http://themeforest.net/category/site-templates">Themeforest</a> or </li>
+						</ul>
+				</section>
+
+				<section>
+					  <h3>Limitations of Static Sites:</h3>
+					  <p>Writing in HTML can get tiresome</p>
+						<div class="xml html"><pre><code><h1>New Post: Broken Windows in your Code</h1>
+<p>A <a href="https://en.wikipedia.org/wiki/Broken_windows_theory">
+popular theory</a> on criminal behavior postulates that <strong> a
+broken window left unfixed, leads to rapid deterioration in a
+neighborhood</strong>.</p>
+<p>The reasoning is that the broken window sends signals to anybody
+who sees it, indicating the degree to which the community tolerates
+disorder.</p>
+<blockquote>A good framework or a good architecture makes it hard to
+do the wrong thing.</blockquote></code></pre></div>
+				</section>
+
+				<section>
+					<h3>Limitations of Static Sites:</h3>
+					<img src="/img/unique-vs-repeat-content.png" alt="Most of the area on a web page is often repeat content." />
+					<aside class="notes">
+						<p>The pain of updates. I don't recommend straight HTML for large sites.</p>
+					</aside>
+				</section>
+
+				<section>
+					<h2>Enter Jekyll</h2>
+					<img src="/img/jekyll.png" alt="Jekyll: A blog-aware static site generator." />
+					<p><a href="http://jekyllrb.com/">http://jekyllrb.com/</a></p>
+					<aside class="notes">
+						<p>Jekyll is a blog-aware static site generator</p>
+					</aside>
+				</section>
+
 				<section>
 					  <h2>But wait! We teach code</h2>
 					  <p>Ruby</p>
@@ -192,7 +269,7 @@
               </code>
             </pre>
 				</section>
-               
+
          <section>
  					  <h2>But wait! We teach code</h2>
  					  <p>Python</p>
@@ -205,7 +282,7 @@
                </code>
              </pre>
  				</section>
- 				
+
  				 <section>
  					  <h2>But wait! We teach code</h2>
  					  <p>Java</p>
@@ -218,7 +295,7 @@
                </code>
              </pre>
  				</section>
-        
+
 
         <!-- Elements entering one at a time-->
         <section>
@@ -286,7 +363,7 @@
 					</section>
 				</section>
 
-        
+
 				<section>
 					<h2>Point of View</h2>
 					<p>
@@ -380,7 +457,7 @@
 			</div>
   		<footer>
         <div class="copyright">
-          Official class name here -- Chapter name here (if content modified from original) --
+          Building a Personal Website with Github Pages -- Girl Develop It Dayton --
           <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/3.0/80x15.png" /></a>
         </div>
       </footer>
