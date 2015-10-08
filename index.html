@@ -57,24 +57,28 @@
 					<p>
 						<small>Slides at <a href="http://bryanbraun.github.io/gdi-personal-website/#/">http://bryanbraun.github.io/gdi-personal-website</a>.</small>
 					</p>
+					<aside class="notes">
+					</aside>
 				</section>
         <!-- Compatibility-->
 				<section>
 					<h2>Why a Personal Site?</h2>
-					<ul>
+					<ul class="fragment">
+						<li>Claim your name</li>
 						<li>A place to experiment</li>
 						<li>A place to write</li>
-						<li>Claim your name. Control your message.</li>
+						<li>Control your message.</li>
 						<li><a href="http://www.bryanbraun.com/2013/08/21/build-it-before-you-need-it">Build it before you need it</a></li>
 					</ul>
 					<aside class="notes">
+						<p>Ask: Does anybody here have a personal site? Why? How have you found it helpful?</p>
 		        <ul>
 							<li>I've had a personal site since I started web dev in 2009. (Talk about MY experiences!)</li>
+		        	<li>Tell the story about the advice to get yourname .com.</li>
 		        	<li>There's no better way to learn then by making things.</li>
-		        	<li>Writing: is a good skill to develop. Sharing what you learn encourages collaboration.</li>
-		        	<li>About the advice to get yourname .com.</li>
-		        	<li>At some point in the future, you're going to have something to say (or demonstrate).</li>
-							<li>All of this is good for your career. Your website may be the first impression people get of you online.</li>
+		        	<li>Writing: is a good skill to develop. Writing gets your name out there.</li>
+							<li>Your website may be the first impression people get of you online.</li>
+							<li>It's great for potential employers.</li>
 		        </ul>
 		    	</aside>
 				</section>
@@ -84,40 +88,44 @@
 					<p>
 						Wix - Wordpress - Joomla - Squarespace - Django - Drupal - Rails - Express - Sinatra - Hexo - Jekyll - Octopress - Postachio - Hugo - Weebly - Pancake - Pelican - Middleman - Blogger - Google Sites - October - Ghost - Harp - About.me - Yola - Assemble - Craft - Tumblr - Hubpress - Grav - Medium - Hubpages - Svbtle - Posthaven - Pico - Statamic <br/>...
 					</p>
-				</section>
-
-				<section>
-					<h1>Github Pages</h1>
-					<h2>What is it?</h2>
-					<p>It's free static site hosting provided by Github.</p>
 					<aside class="notes">
-						<p>If anybody is unfamiliar with Github, then describe it in a sentence here.</p>
-						<u></u>
+						<p>Every one of these options is perfect for someone. It's about about tradeoffs.</p>
 					</aside>
 				</section>
 
 				<section>
-					<h2>Why Github Pages?</h2>
+					<h2>Github Pages</h2>
+					<br />
+					<p><strong>What is it?</strong></p>
+					<p>It's free static site hosting provided by Github.</p>
+					<aside class="notes">
+						<p>What is Static?</p>
+						<p>What is Github?</p>
+						<p>Github is a developer's network for managing code. We'll talk more about this later.</p>
+					</aside>
+				</section>
+
+				<section>
+					<h2>Why are we interested in Github Pages?</h2>
 					<ul>
-						<li>Uses developer workflows</li>
+						<li>Uses professional developer workflows</li>
 						<li>Full control of your design & content</li>
-						<li>Ease of migration</li>
 						<li>Embraces openness</li>
-						<li>Large Plugin Ecosystem</li>
-						<li>Low Complexity</li>
+						<li>Versioned</li>
+						<li>Distributed (encourages a local backup)</li>
+						<li>Benefits of Static Sites</li>
 						<ul>
 							<li>Secure</li>
 							<li>Scalable</li>
-							<li>Backups built in</li>
-							<li>No comment spam</li>
+							<li>Portable</li>
 						</ul>
 						<li>Free</li>
 					</ul>
-					<aside  class="notes">
+					<aside class="notes">
 						<ul>
-							<li>Uses Developer workflows: Git, Github, Ruby, Markdown, Frontend Code</li>
-							<li>Hosted services (squarespace, etc) often trade convenience for control.</li>
-							<li>Plugins: RSS, Sitemaps, Syntax Highlighting, etc.</li>
+							<li>Uses Developer workflows: Git, Github, Markdown, Ruby, Javascript Integrations</li>
+							<li>For the _Convenience vs Control_ tradeoff, we developers want control.</li>
+							<li>Secure: No database to hack, no passwords to leak. No server to hijack and send spam from.</li>
 							<li>Lots of options seem close to free but they tend to increase over time and add up.</li>
 						</ul>
 					</aside>
@@ -127,16 +135,20 @@
 					<h2>The Case Against Github Pages</h2>
 					<ul>
 						<li>You can't use it to experiment with Backend / Databases / Caching / Servers / Ops</li>
-						<li>Favors Jekyll, which you may not want (like if you aren't interested in Ruby, for example)</li>
-						<li>Some features must use 3rd party JS plugins</li>
 						<li>Favors control over convenience.</li>
-						<ul>
-							<li>Not a strong theme ecosystem.</li>
-						</ul>
+						<li>No CMSs. Advanced Github pages sites use static site builders like Jekyll</li>
+						<li>Web interface is lacking: Github is designed for code management, not content management.</li>
+						<li>Some features must use 3rd party JS plugins</li>
 					</ul>
 					<aside  class="notes">
 						<p>Missing conveniences</p>
 						<ul>
+							<li>May not want Jekyll if:</li>
+							<ul>
+								<li>You don't want to work with Ruby</li>
+								<li>You are on Windows and aren't interested in the more complex installation</li>
+								<li>You have specific technologies you want to work with.</li>
+							</ul>
 							<li>No Drag & Drop image uploads.</li>
 							<li>No WYSIWYG Editor. Uses HTML instead (or Markdown, if you go with Jekyll)</li>
 							<li>No Large high-quality theme ecosystem</li>
@@ -178,15 +190,40 @@
 				</section>
 
 				<section>
-					<h3>Sites using Github Pages</h3>
-					<img src="img/ben-balter.png" alt="The Personal Blog of Ben Balter" />
+					<h3>First... What is Github?</h3>
+					<!-- <img src="img/github.png" alt="Github Wordmark"> -->
+					<img src="img/github.com.png" alt="Github mascot octocat image">
 					<aside class="notes">
-						<p>An example of personal / blogging use.</p>
+						<p>Think of it as a social network for programmers. Like Instagram, but instead of posting photos, you post code projects.</p>
 					</aside>
 				</section>
 
 				<section>
-					<h2>Getting Started</h2>
+					<h3>Github: Profile Page</h3>
+					<!-- <img src="img/github.png" alt="Github Wordmark"> -->
+					<img src="img/github-profile.png" alt="Github profile screenshot">
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section>
+					<h3>Github: Newsfeed</h3>
+					<!-- <img src="img/github.png" alt="Github Wordmark"> -->
+					<img src="img/github-newsfeed.png" alt="Github newsfeed screenshot">
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section>
+					<h3>Github: Project Page</h3>
+					<!-- <img src="img/github.png" alt="Github Wordmark"> -->
+					<img src="img/github-project.png" alt="Github project page screenshot">
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section>
+					<h3>Getting Started: Github Pages</h3>
 					<p><a href="https://pages.github.com">https://pages.github.com</a></p>
 					<aside class="notes">
 						<p>Jump over to Github Pages and walk through their steps to follow the setup.</p>
@@ -194,41 +231,58 @@
 							<li>Make sure the repo is empty (no README).</li>
 							<li>Put the project on my desktop.</li>
 							<li>Add the index.html file from my desktop.</li>
+							<li>Sync the commit</li>
 							<li>Get the URL from the settings area (and add it to the description area).</li>
+							<li>Verify it's live on Github</li>
 						</ul>
 					</aside>
 				</section>
 
 				<section>
-				  <h3>Options for making it look nice:</h3>
-					<p>1. Style it yourself.</p>
-					<img src="img/style2.png" alt="An artist at an easel">
-				</section>
-
-				<section>
-					  <h3>Options for making it look nice:</h3>
-					<p>2. Start with a Github Template</p>
-					<img src="img/github-pages-templates.png" alt="Thumbnails of built-in templates options for Github Pages.">
+				  <h3>Getting Started: Github Desktop</h3>
+					<p>A desktop application for syncing your local code with the code on Github.</p>
+					<p>Download and Instructions at: <a href="https://desktop.github.com">https://desktop.github.com</a></p>
 					<aside class="notes">
-						<p>Demo how to find and enable Github's templates: <a href="https://github.com/bryanbraun/bryanbraun.github.io">https://github.com/bryanbraun/bryanbraun.github.io</a></p>
-						<p>Note: not many options.</p>
+						<p>Draw where Github Desktop fits in on the whiteboard (computer)</p>
+						<p>Do Git in 5 minutes (on the whiteboard?) comparing commits to revisions and a timeline.</p>
+						<p>Walkthough the Github Desktop features, showing the AnchorJS project.</p>
+						<ul>
+							<li>Show the projects listing</li>
+							<li>Show the timeline</li>
+							<li>Show how each point in time references a commit (and show the commit metadata)</li>
+						</ul>
+						<p>Demonstrate github Desktop usage with my "Hello" example.</p>
+						<ul>
+							<li>Make a series of changes, committing them, sync with github and view the history.</li>
+						</ul>
 					</aside>
 				</section>
 
 				<section>
-					<h3>Options for making it look nice:</h3>
-					<p>3. Browse static templates online</p>
-						<ul>
-							<li>Collections, like <a href="http://templated.co/">Templated</a> & <a href="http://html5up.net/">HTML5Up</a></li>
-							<li><a href="https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&es_th=1&ie=UTF-8#q=bootstrap+themes">Bootstrap Themes</a></li>
-							<li>Paid Theme Marketplaces, like <a href="http://themeforest.net/category/site-templates">Themeforest</a></li>
-						</ul>
+				  <h3>Let's Reflect</h3>
+					<p>What have we done?</p>
+					<ul>
+						<li>We now a have live webpage running on Github Pages.</li>
+						<li>We know how to use Github & Github Desktop to publish a website.</li>
+					</ul>
+					<aside class="notes">
+						<p>We have acheived our most basic goal.</p>
+						<p>(Reproducing this in the hands-on portion would be a success.)</p>
+					</aside>
 				</section>
 
 				<section>
-					  <h3>Limitations of Static Sites:</h3>
-					  <p>Writing in HTML can get tiresome</p>
-						<div class="xml html"><pre><code><h1>New Post: Broken Windows in your Code</h1>
+					<h3>Limitations of Static Sites:</h3>
+					<img src="img/unique-vs-repeat-content.png" alt="Most of the area on a web page is often repeat content." />
+					<aside class="notes">
+						<p>The pain of updates. I don't recommend straight HTML for large sites.</p>
+					</aside>
+				</section>
+
+				<section>
+				  <h3>Limitations of Static Sites:</h3>
+				  <p>Writing in HTML can get tiresome</p>
+					<div class="xml html"><pre><code><h1>New Post: Broken Windows in your Code</h1>
 <p>A <a href="https://en.wikipedia.org/wiki/Broken_windows_theory">
 popular theory</a> on criminal behavior postulates that <strong> a
 broken window left unfixed, leads to rapid deterioration in a
@@ -241,28 +295,84 @@ do the wrong thing.</blockquote></code></pre></div>
 				</section>
 
 				<section>
-					<h3>Limitations of Static Sites:</h3>
-					<img src="img/unique-vs-repeat-content.png" alt="Most of the area on a web page is often repeat content." />
+					<h3>Solution: Static Site Generators</h3>
+					<ul>
+						<li>They try to eliminate the pain of static sites</li>
+						<li>They are most useful for sites with many pages.</li>
+					</ul>
+					<br />
+					<br />
+					<p>Jekyll - Middleman - Hexo - Hugo - Nanoc - Pelican</p>
+					<p>(compare options at <a href="https://www.staticgen.com/">https://www.staticgen.com/)</a></p>
 					<aside class="notes">
-						<p>The pain of updates. I don't recommend straight HTML for large sites.</p>
 					</aside>
 				</section>
 
 				<section>
-					<h2>Enter Jekyll</h2>
+					<h3>Blogging is easier with Markdown</h3>
+					<img src="image-comparing html to md.png" alt="Compare HTML to Markdown." />
+					<aside class="notes">
+						<p>They also improve blogging, by letting you write markdown instead of HTML</p>
+					</aside>
+				</section>
+
+				<section>
+					<h3>Jekyll is a Static Site Generator</h3>
 					<img src="img/jekyll.png" alt="Jekyll: A blog-aware static site generator." />
 					<p><a href="http://jekyllrb.com/">http://jekyllrb.com/</a></p>
 					<aside class="notes">
-						<p>Jekyll is a blog-aware static site generator</p>
 					</aside>
 				</section>
 
 				<section>
-					<h2>Jekyll Setup</h2>
-					<p><a href="https://help.github.com/articles/using-jekyll-with-pages/">Using Jekyll with Github Pages</a></p>
+					<h3>Why are we interested in Jekyll?</h3>
+					<ul>
+						<li>Ease of migration</li>
+						<li>Large Plugin Ecosystem</li>
+						<li>Secure / Easy to maintain</li>
+						<li>No comment spam</li>
+						<li>Github Pages Integration</li>
+						<li>Free</li>
+					</ul>
 					<aside class="notes">
-						<p>Jekyll is a blog-aware static site generator</p>
+						<ul>
+							<li>Plugins: RSS, Sitemaps, Syntax Highlighting, etc.</li>
+						</ul>
 					</aside>
+				</section>
+
+				<section>
+					<h3>Jekyll Setup</h3>
+					<p><a href="https://help.github.com/articles/using-jekyll-with-pages/">Using Jekyll with Github Pages</a></p>
+					<p><a href="http://jekyllrb.com/docs/installation/">Installation Instructions (Mac)</a></p>
+					<p><a href="http://jekyll-windows.juthilo.com/">Installation Instructions (PC)</a>- not for the faint of heart</p>
+					<aside class="notes">
+						<p>Don't try to setup Jekyll live.</p>
+						<p>Give a tour of Jekyll by browsing through the file tree of a local Jekyll site. (Una's is a bit complex. Maybe Ben Balter's?)</p>
+						<ul>
+							<li>layouts & includes (header, footer, etc)</li>
+							<li>Blog posts</li>
+							<li>Listings with ERB logic</li>
+						</ul>
+					</aside>
+				</section>
+
+				<section>
+					<h1>Hands On</h1>
+					<p>What do you want to build?</p>
+					<p>Ideas:</p>
+					<ul>
+						<li>Putting my "Hello" page on your Github Pages, and customizing it for you.</li>
+						<li>Build your own static webpage / website</li>
+						<ul>
+							<li>Designed by you</li>
+							<li>OR, find a static template (try <a href="http://templated.co/">here</a> or <a href="http://html5up.net/">here</a>)</li>
+						</ul>
+						<li><a href="https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/">Set up a custom domain name</a></li>
+						<li>Set up a Jekyll site</li>
+						<li>Use a different static site builder to set up a site</li>
+						<li>Ask around</li>
+					</ul>
 				</section>
 
 				<section>
@@ -283,7 +393,6 @@ do the wrong thing.</blockquote></code></pre></div>
 		<script src="js/reveal.min.js"></script>
 
 		<script>
-
 			// Full list of configuration options available here:
 			// https://github.com/hakimel/reveal.js#configuration
             Reveal.initialize({
@@ -302,7 +411,7 @@ do the wrong thing.</blockquote></code></pre></div>
 					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
 					{ src: 'plugin/zoom-js/zoom.js', async: true },
 					{ src: 'plugin/notes/notes.js', async: true },
-                    { src: 'plugin/accessibility-helper/js/accessibility-helper.js', async: true, condition: function() { return !!document.body.classList; } }
+          { src: 'plugin/accessibility-helper/js/accessibility-helper.js', async: true, condition: function() { return !!document.body.classList; } }
 				]
 			});
 
