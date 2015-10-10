@@ -167,14 +167,6 @@
 
 				<section>
 					<h3>Sites using Github Pages</h3>
-					<img src="img/bootstrap.png" alt="The site for Twitter Bootstrap" />
-					<aside class="notes">
-						<p>An example of project-based use. Documentation is one of the most popular uses!</p>
-					</aside>
-				</section>
-
-				<section>
-					<h3>Sites using Github Pages</h3>
 					<img src="img/adobe-open-source.png" alt="Adobe's open source portfolio" />
 					<aside class="notes">
 						<p>An example of corporate use.</p>
@@ -240,11 +232,19 @@
 
 				<section>
 				  <h3>Getting Started: Github Desktop</h3>
-					<p>A desktop application for syncing your local code with the code on Github.</p>
+					<p>It is...</p>
+					<br />
+					<ol>
+						<li>A desktop application for syncing your local code with the code on Github.</li>
+						<li>A user interface for Git, the version control tool.</li>
+					</ol>
+					<br />
+					<br />
 					<p>Download and Instructions at: <a href="https://desktop.github.com">https://desktop.github.com</a></p>
 					<aside class="notes">
-						<p>Draw where Github Desktop fits in on the whiteboard (computer)</p>
+						<p>Draw where Github Desktop fits in on the whiteboard (computer -> Github)</p>
 						<p>Do Git in 5 minutes (on the whiteboard?) comparing commits to revisions and a timeline.</p>
+						<p> - Compare to Google Doc Revisions: https://docs.google.com/document/d/1_ZGO0NjCssLqhp6AOHHglbe94jjFib9QWfcOG1fotT4/edit</p>
 						<p>Walkthough the Github Desktop features, showing the AnchorJS project.</p>
 						<ul>
 							<li>Show the projects listing</li>
@@ -281,17 +281,8 @@
 
 				<section>
 				  <h3>Limitations of Static Sites:</h3>
-				  <p>Writing in HTML can get tiresome</p>
-					<div class="xml html"><pre><code><h1>New Post: Broken Windows in your Code</h1>
-<p>A <a href="https://en.wikipedia.org/wiki/Broken_windows_theory">
-popular theory</a> on criminal behavior postulates that <strong> a
-broken window left unfixed, leads to rapid deterioration in a
-neighborhood</strong>.</p>
-<p>The reasoning is that the broken window sends signals to anybody
-who sees it, indicating the degree to which the community tolerates
-disorder.</p>
-<blockquote>A good framework or a good architecture makes it hard to
-do the wrong thing.</blockquote></code></pre></div>
+				  <p>Writing content in HTML can get tiresome</p>
+					<img src="img/html-example.png" alt="Most of the area on a web page is often repeat content." />
 				</section>
 
 				<section>
@@ -310,7 +301,10 @@ do the wrong thing.</blockquote></code></pre></div>
 
 				<section>
 					<h3>Blogging is easier with Markdown</h3>
-					<img src="image-comparing html to md.png" alt="Compare HTML to Markdown." />
+					<img src="img/markdown-comparison.png" alt="Compare HTML to Markdown." />
+					<br />
+					<a href="https://guides.github.com/features/mastering-markdown/#what">What is Markdown? [Link]</a>
+
 					<aside class="notes">
 						<p>They also improve blogging, by letting you write markdown instead of HTML</p>
 					</aside>
@@ -327,17 +321,18 @@ do the wrong thing.</blockquote></code></pre></div>
 				<section>
 					<h3>Why are we interested in Jekyll?</h3>
 					<ul>
-						<li>Ease of migration</li>
+						<li>Github Pages Integration</li>
 						<li>Large Plugin Ecosystem</li>
 						<li>Secure / Easy to maintain</li>
 						<li>No comment spam</li>
-						<li>Github Pages Integration</li>
+						<li>Ease of migration</li>
 						<li>Free</li>
 					</ul>
 					<aside class="notes">
 						<ul>
 							<li>Plugins: RSS, Sitemaps, Syntax Highlighting, etc.</li>
 						</ul>
+						<p>One downside: Windows setup could be a challenge. Maybe recommend Hugo? If I have time I should try it on a VM.</p>
 					</aside>
 				</section>
 
@@ -349,6 +344,7 @@ do the wrong thing.</blockquote></code></pre></div>
 					<aside class="notes">
 						<p>Don't try to setup Jekyll live.</p>
 						<p>Give a tour of Jekyll by browsing through the file tree of a local Jekyll site. (Una's is a bit complex. Maybe Ben Balter's?)</p>
+						<p>Note: Running `jekyll new` creates a scaffold for a basic site. I could demonstrate this.</p>
 						<ul>
 							<li>layouts & includes (header, footer, etc)</li>
 							<li>Blog posts</li>
@@ -362,7 +358,7 @@ do the wrong thing.</blockquote></code></pre></div>
 					<p>What do you want to build?</p>
 					<p>Ideas:</p>
 					<ul>
-						<li>Putting my "Hello" page on your Github Pages, and customizing it for you.</li>
+						<li>Putting <a href="https://github.com/bryanbraun/hello">my "Hello" page</a> on your Github Pages, and customizing it for you.</li>
 						<li>Build your own static webpage / website</li>
 						<ul>
 							<li>Designed by you</li>

@@ -28,3 +28,13 @@ This workshop will cover:
 - Publishing Code to Github with Github Desktop
 - Using Jekyll to create and build a dynamically generated site
 - Hosting Jekyll sites on Github pages
+
+## Viewing the slides locally
+
+```bash
+grunt serve # Site will be served at http://localhost:8000
+```
+
+Press `s` to see the speaker view.
+
+For more detail, see [the reveal.js README]().
