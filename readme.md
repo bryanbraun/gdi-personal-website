@@ -1,5 +1,7 @@
 # Building a Personal Website with Github Pages
 
+This presentation was originally given at the [Girl Develop It (Dayton)](http://gdidayton.com/), [Building a Personal Website with Github Pages Workshop](https://www.meetup.com/Girl-Develop-It-Dayton/events/224967656/).
+
 Slides and materials are hosted at [http://bryanbraun.github.io/gdi-personal-website](http://bryanbraun.github.io/gdi-personal-website).
 
 ## Course description
